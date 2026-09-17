@@ -593,7 +593,7 @@ async function registerUser() {
     try {
         await api.register(role, name, email, password);
         showToast("🎉 Account created! Redirecting...");
-        setTimeout(() => { window.location.href = "JobPortalindex.html"; }, 1600);
+        setTimeout(() => { window.location.href = "index.html"; }, 1600);
     } catch (err) {
         showToast(err.error || "Registration failed");
     }
@@ -603,7 +603,7 @@ function logout() {
     currentUser = null;
     sessionStorage.removeItem("cvc_user");
     showToast("Logged out");
-    setTimeout(() => { window.location.href = "JobPortalindex.html"; }, 600);
+    setTimeout(() => { window.location.href = "index.html"; }, 600);
 }
 
 async function checkSession() {
