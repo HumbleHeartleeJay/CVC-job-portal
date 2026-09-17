@@ -95,21 +95,21 @@ body {
 /* ══ PER-PAGE BACKGROUNDS ══ */
 body.page-login,
 body.page-register {
-    background-image: url('LogIn and Register.jpg');
+    background-image: url('LogIn_and_Register.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.page-student {
-    background-image: url('Student BG.png');
+    background-image: url('Students_BG.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.page-employer {
-    background-image: url('Employer BG.png');
+    background-image: url('Employer_BG.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
